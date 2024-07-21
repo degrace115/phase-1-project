@@ -1,0 +1,21 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://moewalls.com/wp-content/uploads/2023/09/call-of-duty-modern-warfare-ii-ghost-thumb-364x205.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+header, footer {
+    background-color: hwb(0 0% 100% / 0.5); /* Semi-transparent background for readability */
+    color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    color:red; /* Ensure text is visible on background */
+}
